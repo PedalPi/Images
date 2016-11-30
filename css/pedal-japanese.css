@@ -3,6 +3,8 @@
   --pedal-background: #65cdca;
   --pedal-height: 530px;
   --pedal-width: 274px;
+
+  --knob-background: url('../images/knob/japanese/green.png');
   padding: 10px 10px 40px
 }
 

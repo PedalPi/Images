@@ -3,7 +3,7 @@
 }
 
 #my-pedal-knob-setted .knobs span {
-  --knob-background: url('../images/knob/purple.png');
+  --knob-background: url('../images/knob/boxy/purple.png');
 }
 
 #my-pedal-custom-size-1 {
@@ -23,10 +23,6 @@
 
 #gx-flanger-2 {
   --pedal-background-base: url('../images/flowerpower.png');
-}
-
-#pedal-japanese .knobs span {
-  --knob-background: url('https://github.com/moddevices/mod-sdk/blob/master/html/resources/knobs/japanese/green.png?raw=true');
 }
 
 #pedal-japanese {
