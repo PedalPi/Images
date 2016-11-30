@@ -1,0 +1,47 @@
+#my-pedal-color {
+  --pedal-background: #563390;
+}
+
+#my-pedal-knob-setted .knobs span {
+  --knob-background: url('../images/knob/purple.png');
+}
+
+#my-pedal-custom-size-1 {
+  --pedal-background: #339056;
+  --pedal-width: 365px;
+}
+
+#my-pedal-custom-size-2 {
+  --pedal-background: #903356;
+  --pedal-width: 200px;
+  --pedal-height: 250px;
+}
+
+#gx-flanger {
+  --pedal-background: url('../images/slime.png');
+}
+
+#gx-flanger-2 {
+  --pedal-background-base: url('../images/flowerpower.png');
+}
+
+#pedal-japanese .knobs span {
+  --knob-background: url('https://github.com/moddevices/mod-sdk/blob/master/html/resources/knobs/japanese/green.png?raw=true');
+}
+
+#pedal-japanese {
+  justify-content: inherit;
+}
+
+#pedal-japanese .led {
+  background-size: 25px;
+  height: 25px;
+}
+
+#pedal-japanese .knobs {
+  margin-top: -20px;
+}
+
+#pedal-japanese .logo {
+  margin-top: 150px;
+}

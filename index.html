@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/pedal-base.css">
+    <link rel="stylesheet" href="css/pedal-boxy.css">
+    <link rel="stylesheet" href="css/pedal-japanese.css">
+
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="pedals.css">
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" rel="stylesheet" />
+    <script src="js/csi.min.js"></script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+        <h2>Default</h2>
+        <pre data-src="examples/pedal-default.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-default.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Set color</h2>
+
+        <input type="color" value="#563390" oninput="setColor(this, '#my-pedal-color', '#custom-color-1')"/>
+        <pre id="custom-color-1" data-src="examples/pedal-set-color.css"></pre>
+        <pre data-src="examples/pedal-set-color.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-set-color.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Set knob</h2>
+
+        <pre data-src="examples/pedal-set-knob.css"></pre>
+        <pre data-src="examples/pedal-set-knob.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-set-knob.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Set knob label position</h2>
+        <pre data-src="examples/pedal-knob-position.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-knob-position.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Set knobs size</h2>
+        <pre data-src="examples/pedal-knob-size.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-knob-size.html"></div>
+    </article>
+
+  <article>
+      <header>
+        <h2>Custom size</h2>
+        <pre data-src="examples/pedal-custom-size.css"></pre>
+        <pre data-src="examples/pedal-custom-size.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-custom-size.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Image background</h2>
+        <dl>
+          <dt>Custom background: </dt>
+          <dd><img src="images/slime.png" /></dd>
+        </dl>
+
+        <pre data-src="examples/pedal-image-background.css"></pre>
+        <pre data-src="examples/pedal-image-background.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-image-background.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Custom base background</h2>
+        <dl>
+          <dt>Custom base background: </dt>
+          <dd><img src="images/flowerpower.png" /></dd>
+        </dl>
+
+        <pre data-src="examples/pedal-background-base.css"></pre>
+        <pre data-src="examples/pedal-background-base.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-background-base.html"></div>
+    </article>
+
+    <article>
+      <header>
+        <h2>Japanese pedal</h2>
+        <input type="color" value="#65cdca" oninput="setColor(this, '#pedal-japanese', '#custom-color-2')"/>
+        <pre id="custom-color-2" data-src="examples/pedal-japanese.css"></pre>
+        <pre data-src="examples/pedal-japanese.html"></pre>
+      </header>
+
+      <div data-include="examples/pedal-japanese.html"></div>
+    </article>
+  </body>
+</html>
