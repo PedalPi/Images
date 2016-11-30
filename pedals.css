@@ -2,19 +2,20 @@
   --pedal-background: #563390;
 }
 
-#my-pedal-knob-setted .knobs span {
+#my-pedal-knob-setted {
   --knob-background: url('../images/knob/boxy/purple.png');
 }
 
+
 #my-pedal-custom-size-1 {
-  --pedal-background: #339056;
-  --pedal-width: 365px;
+  --pedal-background: #903356;
+  --pedal-width: 260px;
+  --pedal-height: 362px;
 }
 
 #my-pedal-custom-size-2 {
-  --pedal-background: #903356;
-  --pedal-width: 200px;
-  --pedal-height: 250px;
+  --pedal-background: #339056;
+  --pedal-width: 365px;
 }
 
 #gx-flanger {

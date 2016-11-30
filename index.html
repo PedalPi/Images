@@ -73,7 +73,14 @@
   <article>
       <header>
         <h2>Custom size</h2>
-        <pre data-src="examples/pedal-custom-size.css"></pre>
+        <dl>
+          <dt>Width: </dt>
+          <dd><input type="range" value="260" min="200" max="420" step="1" oninput="setSize(this, '#my-pedal-custom-size-1', '#custom-size', '--pedal-width')" /></dd>
+          <dt>Height: </dt>
+          <dd><input type="range" value="362" min="200" max="420" step="1" oninput="setSize(this, '#my-pedal-custom-size-1', '#custom-size', '--pedal-height')" /></dd>
+        </dl>
+
+        <pre id="custom-size" data-src="examples/pedal-custom-size.css"></pre>
         <pre data-src="examples/pedal-custom-size.html"></pre>
       </header>
 
